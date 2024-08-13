@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="business-behavior-monitor-test" />
+        <module name="business-behavior-monitor-admin" />
+        <module name="business-behavior-monitor-sdk" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="business-behavior-monitor-sdk (1) (plus.gaga)" target="1.8" />
+      <module name="business-behavior-monitor-sdk (2) (cn.zf)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="business-behavior-monitor" options="-parameters" />
+      <module name="business-behavior-monitor-admin" options="-parameters" />
+      <module name="business-behavior-monitor-sdk" options="-parameters" />
+      <module name="business-behavior-monitor-sdk (1) (plus.gaga)" options="-parameters" />
+      <module name="business-behavior-monitor-sdk (2) (cn.zf)" options="-parameters" />
+      <module name="business-behavior-monitor-test" options="-parameters" />
+    </option>
+  </component>
+</project>

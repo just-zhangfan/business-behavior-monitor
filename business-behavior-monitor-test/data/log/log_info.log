@@ -1,0 +1,8 @@
+24-08-13.16:59:11.278 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-13.16:59:10.897 [main            ] INFO  ApiTest                - Starting ApiTest using Java 1.8.0_281 on DESKTOP-VCO2F1Q with PID 3544 (started by pc in D:\Code\idea\business-behavior-monitor\business-behavior-monitor-test)
+24-08-13.16:59:18.622 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-13.16:59:18.616 [main            ] INFO  ApiTest                - The following 1 profile is active: "dev"
+24-08-13.16:59:25.987 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-13.16:59:25.965 [main            ] INFO  ApiTest                - Started ApiTest in 15.452 seconds (JVM running for 16.277)
+24-08-13.16:59:33.355 [main            ] INFO  Version                - Redisson 3.26.0
+24-08-13.16:59:33.351 [main            ] INFO  ApiTest                - 测试日志 10001 李二狗 {"orderId":"109099893222","userAge":25,"userId":"10001","userName":"李二狗"}
