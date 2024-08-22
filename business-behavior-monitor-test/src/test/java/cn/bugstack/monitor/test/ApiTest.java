@@ -1,7 +1,5 @@
-package cn.bugstack.test;
+package cn.bugstack.monitor.test;
 
-import com.alibaba.fastjson2.JSON;
-import lombok.Builder;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
@@ -10,8 +8,6 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.concurrent.CountDownLatch;
 
 @Slf4j
 @RunWith(SpringRunner.class)
@@ -30,12 +26,24 @@ public class ApiTest {
         userEntity.setOrderId("109099893222");
     }
 
+    @Test
+    public void test_log_00() throws InterruptedException {
+        log.info("测试日志00 {} {} {}", userEntity.userId, userEntity.userName, com.alibaba.fastjson.JSON.toJSONString(userEntity));
+    }
 
     @Test
     public void test_log_01() throws InterruptedException {
-        log.info("测试日志 {} {} {}", userEntity.getUserId(), userEntity.getUserName(), JSON.toJSONString(userEntity));
+        log.info("测试日志01 {} {} {}", userEntity.userId, userEntity.userName, com.alibaba.fastjson.JSON.toJSONString(userEntity));
+    }
 
-        new CountDownLatch(1).await();
+    @Test
+    public void test_log_02() throws InterruptedException {
+        log.info("测试日志02 {} {} {}", userEntity.userId, userEntity.userName, com.alibaba.fastjson.JSON.toJSONString(userEntity));
+    }
+
+    @Test
+    public void test_log_03() throws InterruptedException {
+        log.info("测试日志03 {} {} {}", userEntity.userId, userEntity.userName, com.alibaba.fastjson.JSON.toJSONString(userEntity));
     }
 
     @Data

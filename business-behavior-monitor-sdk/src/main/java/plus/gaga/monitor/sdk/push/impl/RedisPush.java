@@ -1,10 +1,8 @@
 package plus.gaga.monitor.sdk.push.impl;
 
-import com.alibaba.fastjson.JSON;
 import org.redisson.Redisson;
 import org.redisson.api.RTopic;
 import org.redisson.api.RedissonClient;
-import org.redisson.api.listener.MessageListener;
 import org.redisson.codec.JsonJacksonCodec;
 import org.redisson.config.Config;
 import org.slf4j.Logger;
@@ -41,17 +39,6 @@ public class RedisPush implements IPush {
                 .setKeepAlive(true);
 
         this.redissonClient = Redisson.create(config);
-
-        RTopic topic = this.redissonClient.getTopic("business-behavior-monitor-sdk-topic");
-        topic.addListener(LogMessage.class, new Listener());
-    }
-
-    class Listener implements MessageListener<LogMessage> {
-
-        @Override
-        public void onMessage(CharSequence charSequence, LogMessage logMessage) {
-            logger.info("接收消息：{}", JSON.toJSONString(logMessage));
-        }
     }
 
     @Override
