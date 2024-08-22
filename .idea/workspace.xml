@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37581851-241f-4bf2-81ef-aa4193dac845" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/domain/repository/IMonitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/domain/repository/IMonitorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/domain/service/ILogAnalyticalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/domain/service/ILogAnalyticalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/domain/service/LogAnalyticalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/domain/service/LogAnalyticalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/infrastructure/dao/IMonitorDataMapNodeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/infrastructure/dao/IMonitorDataMapNodeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/infrastructure/dao/IMonitorDataMapNodeLinkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/infrastructure/dao/IMonitorDataMapNodeLinkDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/infrastructure/repository/MonitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/infrastructure/repository/MonitorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/trigger/http/MonitorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/plus/gaga/monitor/trigger/http/MonitorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/resources/mybatis/mapper/monitor_data_map_node_link_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/resources/mybatis/mapper/monitor_data_map_node_link_mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/test/java/plus/gaga/monitor/test/trigger/MonitorControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/test/java/plus/gaga/monitor/test/trigger/MonitorControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/log_error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/log/log_info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/log/log_info.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="240822-zf-intf-log" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "240822-zf-intf-flow",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Code/idea/tmp/business-behavior-monitor",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
